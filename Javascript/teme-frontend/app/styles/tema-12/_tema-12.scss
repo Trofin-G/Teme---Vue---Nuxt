@@ -1,0 +1,33 @@
+.tema-12 {
+    padding: 100px 0 0 0;
+
+    .btn-success {
+        margin-bottom: 20px;
+    }
+
+    .todo-list {
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 50px;
+
+        h2 {
+            padding-bottom: 25px;
+        }
+
+        .todo-list-unchecked,
+        .todo-list-checked {
+            .todo-element {
+                display: flex;
+                gap: 15px;
+                cursor: pointer;
+                margin-bottom: 10px;
+
+                img {
+                    cursor: pointer;
+                    width: 26px;
+                    height: 26px;
+                }
+            }
+        }
+    }
+}

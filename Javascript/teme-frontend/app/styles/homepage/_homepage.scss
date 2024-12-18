@@ -1,0 +1,60 @@
+.homepage {
+    height: 100vh;
+
+    .container {
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 48px;
+            text-decoration: underline;
+            padding-top: 40px;
+        }
+        .homepage-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 70px 0;
+
+            a {
+                width: calc(33% - 23px);
+                display: block;
+                text-decoration: none;
+                color: #000000;
+                border: 1px solid #000000;
+
+                figure {
+                    h2 {
+                        text-align: center;
+                        font-size: 22px;
+                        padding: 16px 0;
+                    }
+
+                    .image {
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        max-width: 85%;
+                        padding: 0;
+                        overflow: hidden;
+                        background: no-repeat center/cover;
+
+                        &:before {
+                            content: "";
+                            display: block;
+                            padding-top: 100%;
+                        }
+                    }
+
+                    figcaption {
+                        padding: 0 10px 12px 10px;
+
+                        h4{
+                            font-size: 20px;
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

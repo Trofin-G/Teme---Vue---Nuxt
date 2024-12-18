@@ -1,0 +1,14 @@
+.project-7 {
+    @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700");
+    @import "base";
+    @import "components";
+    @import "header";
+    @import "preview";
+    @import "recipe";
+    @import "searchResults";
+    @import "upload";
+
+    .hidden {
+        display: none;
+    }
+}
