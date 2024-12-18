@@ -1,0 +1,93 @@
+.portofolio {
+  text-align: center;
+  background-color: #ffdd99;
+  padding: 104px 0 110px 0;
+
+  .container {
+    h2,
+    h3,
+    h4,
+    a {
+      font-family: $t-web;
+      color: $black-text;
+    }
+
+    h2 {
+      &:after {
+        background-color: #e5c37f;
+      }
+    }
+
+    h4 {
+      padding: 25px 0 40px 0;
+      max-width: 525px;
+      margin: 0 auto;
+    }
+
+    .filter-tabs {
+      a {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.36px;
+        background-color: rgba($black, 0.1);
+        text-transform: uppercase;
+        border-radius: 4px;
+        line-height: 38px;
+        padding: 0 27px;
+        margin: 0 3px;
+
+        &.active {
+          background-color: rgba($white, 1.5);
+        }
+      }
+    }
+
+    .portofolio-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      column-gap: 10px;
+      padding: 65px 0 24px 0;
+
+      .portofolio-item {
+        width: calc(50% - 10px);
+        padding-bottom: 52px;
+
+        img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          margin: 0 auto;
+        }
+
+        h3 {
+          font-size: 18px;
+          font-weight: 400;
+          letter-spacing: 0.36px;
+          padding-top: 20px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    > a {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.36px;
+      background-color: #17c2a4;
+      border-radius: 4px;
+      line-height: 70px;
+      max-width: 293px;
+      margin: 0 auto;
+      display: block;
+      text-transform: uppercase;
+      color: $white;
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}

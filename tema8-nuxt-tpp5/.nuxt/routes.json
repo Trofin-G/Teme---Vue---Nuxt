@@ -1,0 +1,58 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\about\\\\index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_2021c6e6"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\blog\\\\index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_010770b8"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\contact\\\\index.vue",
+    "chunkName": "pages/contact/index",
+    "_name": "_c5e903cc"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c98d8dcc"
+  },
+  {
+    "name": "blog-category-category",
+    "path": "/blog/category/:category?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\blog\\\\category\\\\_category.vue",
+    "chunkName": "pages/blog/category/_category",
+    "_name": "_17e0e405"
+  },
+  {
+    "name": "blog-search-search",
+    "path": "/blog/search/:search?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\blog\\\\search\\\\_search.vue",
+    "chunkName": "pages/blog/search/_search",
+    "_name": "_f6c122f6"
+  },
+  {
+    "name": "blog-tags-tags",
+    "path": "/blog/tags/:tags?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\blog\\\\tags\\\\_tags.vue",
+    "chunkName": "pages/blog/tags/_tags",
+    "_name": "_0154d3b6"
+  },
+  {
+    "name": "details-details",
+    "path": "/details/:details?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema8-nuxt-tpp5\\\\pages\\\\details\\\\_details.vue",
+    "chunkName": "pages/details/_details",
+    "_name": "_226a430d"
+  }
+]

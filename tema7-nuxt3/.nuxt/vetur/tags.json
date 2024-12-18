@@ -1,0 +1,32 @@
+{
+  "CommonFooter": {
+    "description": "Auto imported from components/Common/CommonFooter.vue"
+  },
+  "CommonMenu": {
+    "description": "Auto imported from components/Common/CommonMenu.vue"
+  },
+  "CommonSubmitModal": {
+    "description": "Auto imported from components/Common/CommonSubmitModal.vue"
+  },
+  "HomepageContact": {
+    "description": "Auto imported from components/Homepage/HomepageContact.vue"
+  },
+  "HomepageIntro": {
+    "description": "Auto imported from components/Homepage/HomepageIntro.vue"
+  },
+  "HomepagePortofolio": {
+    "description": "Auto imported from components/Homepage/HomepagePortofolio.vue"
+  },
+  "HomepageServices": {
+    "description": "Auto imported from components/Homepage/HomepageServices.vue"
+  },
+  "HomepageSkills": {
+    "description": "Auto imported from components/Homepage/HomepageSkills.vue"
+  },
+  "HomepageTeam": {
+    "description": "Auto imported from components/Homepage/HomepageTeam.vue"
+  },
+  "HomepageTestimonials": {
+    "description": "Auto imported from components/Homepage/HomepageTestimonials.vue"
+  }
+}

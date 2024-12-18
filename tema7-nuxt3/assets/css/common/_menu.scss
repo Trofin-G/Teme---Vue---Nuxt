@@ -1,0 +1,45 @@
+.page-menu {
+  background-color: #87509c;
+  padding: 55px 0 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    ul {
+      li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 36px;
+
+        a {
+          display: block;
+          font-family: $t-web;
+          font-size: 16px;
+          font-weight: 400;
+          color: $white;
+          text-transform: uppercase;
+          line-height: 32px;
+
+          &.active {
+            background-color: #643a79;
+            border-radius: 4px;
+            padding: 0 17px;
+          }
+        }
+      }
+    }
+  }
+}

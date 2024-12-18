@@ -1,0 +1,29 @@
+.page-footer {
+  background-color: #344b8e;
+  padding: 37px 0;
+
+  .container {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      max-width: 940px;
+      margin: 0 auto;
+
+      li {
+        list-style: none;
+
+        a {
+          font-family: $t-web;
+          font-size: 24px;
+          font-weight: 600;
+          letter-spacing: 0.48px;
+          color: $white;
+
+          &.active {
+            color: #30bae7;
+          }
+        }
+      }
+    }
+  }
+}

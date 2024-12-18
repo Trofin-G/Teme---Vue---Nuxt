@@ -1,0 +1,53 @@
+@import "menu";
+@import "footer";
+@import "submit-modal";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+  @media (min-width: $xl) {
+    max-width: 1050px;
+    padding: 0;
+  }
+  @media (min-width: $xxl) {
+    max-width: 1280px;
+  }
+}
+
+h2 {
+  position: relative;
+  font-family: $t-web;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 87px;
+    height: 6px;
+    bottom: -12px;
+  }
+}
+
+h4 {
+  font-family: $t-web;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 26px;
+  padding: 30px 0 76px 0;
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'paypoint_ro2extrabold';
+    src: url('paypointro2-webfont.eot');
+    src: url('paypointro2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('paypointro2-webfont.woff2') format('woff2'),
+         url('paypointro2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
