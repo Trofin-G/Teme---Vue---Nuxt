@@ -1,0 +1,23 @@
+[
+  {
+    "name": "pageone",
+    "path": "/pageone",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema18-nuxt-caf-10\\\\pages\\\\pageone.vue",
+    "chunkName": "pages/pageone",
+    "_name": "_dc0e5896"
+  },
+  {
+    "name": "pagetwo",
+    "path": "/pagetwo",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema18-nuxt-caf-10\\\\pages\\\\pagetwo.vue",
+    "chunkName": "pages/pagetwo",
+    "_name": "_ab3ef6ca"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema18-nuxt-caf-10\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_14fd49e0"
+  }
+]

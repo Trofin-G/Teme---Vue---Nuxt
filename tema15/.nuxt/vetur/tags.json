@@ -1,0 +1,29 @@
+{
+  "EndPage": {
+    "description": "Auto imported from components/EndPage.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/Sidebar.vue"
+  },
+  "StartPage": {
+    "description": "Auto imported from components/StartPage.vue"
+  },
+  "StepFive": {
+    "description": "Auto imported from components/StepFive.vue"
+  },
+  "StepFour": {
+    "description": "Auto imported from components/StepFour.vue"
+  },
+  "StepOne": {
+    "description": "Auto imported from components/StepOne.vue"
+  },
+  "StepSix": {
+    "description": "Auto imported from components/StepSix.vue"
+  },
+  "StepThree": {
+    "description": "Auto imported from components/StepThree.vue"
+  },
+  "StepTwo": {
+    "description": "Auto imported from components/StepTwo.vue"
+  }
+}

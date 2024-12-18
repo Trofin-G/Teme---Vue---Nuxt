@@ -1,0 +1,30 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema17-nuxt-apps-7\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_14a9a3b2"
+  },
+  {
+    "name": "details-details",
+    "path": "/details/:details?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema17-nuxt-apps-7\\\\pages\\\\details\\\\_details.vue",
+    "chunkName": "pages/details/_details",
+    "_name": "_4587e6cc"
+  },
+  {
+    "name": "legal-legal",
+    "path": "/legal/:legal?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema17-nuxt-apps-7\\\\pages\\\\legal\\\\_legal.vue",
+    "chunkName": "pages/legal/_legal",
+    "_name": "_c9b46a70"
+  },
+  {
+    "name": "search-search",
+    "path": "/search/:search?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema17-nuxt-apps-7\\\\pages\\\\search\\\\_search.vue",
+    "chunkName": "pages/search/_search",
+    "_name": "_9eb72598"
+  }
+]

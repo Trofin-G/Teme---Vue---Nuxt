@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Contabil",
+    "job_location": "Bucuresti",
+    "job_category": "Contabil Economist"
+  },
+  {
+    "title": "Marketing Manager",
+    "job_location": "Iasi",
+    "job_category": "Marketing Economist"
+  },
+  {
+    "title": "Economist",
+    "job_location": "Bucuresti",
+    "job_category": "Contabil Economist Marketing"
+  },
+  {
+    "title": "Accountant",
+    "job_location": "Iasi",
+    "job_category": "Contabil Economist"
+  },
+  {
+    "title": "Web Designer",
+    "job_location": "Bucuresti",
+    "job_category": "IT Design Web"
+  }
+]

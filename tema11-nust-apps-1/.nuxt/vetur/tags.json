@@ -1,0 +1,17 @@
+{
+  "HomepageActivities": {
+    "description": "Auto imported from components/HomepageActivities.vue"
+  },
+  "HomepageClock": {
+    "description": "Auto imported from components/HomepageClock.vue"
+  },
+  "HomepageModalActivity": {
+    "description": "Auto imported from components/HomepageModalActivity.vue"
+  },
+  "HomepageModalForm": {
+    "description": "Auto imported from components/HomepageModalForm.vue"
+  },
+  "HomepageModalFormEdit": {
+    "description": "Auto imported from components/HomepageModalFormEdit.vue"
+  }
+}

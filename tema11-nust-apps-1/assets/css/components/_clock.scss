@@ -1,0 +1,55 @@
+.clock {
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: 140px;
+  width: 600px;
+  height: 600px;
+  @media (min-width: 1200px) {
+    left: auto;
+    margin: 0 0 0 auto;
+    transform: none;
+    right: 200px;
+  }
+
+  .clock-img {
+    img {
+      display: block;
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto;
+      @media (min-width: 768px) {
+        max-width: 75%;
+      }
+      @media (min-width: 1200px) {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .ac-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    @media (min-width: 768px) {
+      top: 38%;
+    }
+    @media (min-width: 1200px) {
+      top: 50%;
+      left: 50%;
+    }
+    img {
+      display: block;
+      max-width: 50%;
+      height: auto;
+      @media (min-width: 768px) {
+        max-width: 75%;
+      }
+      @media (min-width: 1200px) {
+        max-width: 100%;
+      }
+    }
+  }
+}

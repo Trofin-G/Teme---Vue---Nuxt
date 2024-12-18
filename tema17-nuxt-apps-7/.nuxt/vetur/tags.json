@@ -1,0 +1,29 @@
+{
+  "CommonContactBar": {
+    "description": "Auto imported from components/common/CommonContactBar.vue"
+  },
+  "CommonFooter": {
+    "description": "Auto imported from components/common/CommonFooter.vue"
+  },
+  "CommonHeader": {
+    "description": "Auto imported from components/common/CommonHeader.vue"
+  },
+  "CommonOfeersBar": {
+    "description": "Auto imported from components/common/CommonOfeersBar.vue"
+  },
+  "LpLegalArticles": {
+    "description": "Auto imported from components/LpLegal/LpLegalArticles.vue"
+  },
+  "LpLegalDocuments": {
+    "description": "Auto imported from components/LpLegal/LpLegalDocuments.vue"
+  },
+  "LpLegalIntro": {
+    "description": "Auto imported from components/LpLegal/LpLegalIntro.vue"
+  },
+  "LpLegalSidebar": {
+    "description": "Auto imported from components/LpLegal/LpLegalSidebar.vue"
+  },
+  "LpLegalSocials": {
+    "description": "Auto imported from components/LpLegal/LpLegalSocials.vue"
+  }
+}

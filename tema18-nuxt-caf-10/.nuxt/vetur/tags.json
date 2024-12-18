@@ -1,0 +1,20 @@
+{
+  "CommonCardlist": {
+    "description": "Auto imported from components/Common/CommonCardlist.vue"
+  },
+  "PageoneFilters": {
+    "description": "Auto imported from components/Pageone/PageoneFilters.vue"
+  },
+  "PageonePagination": {
+    "description": "Auto imported from components/Pageone/PageonePagination.vue"
+  },
+  "Homepage": {
+    "description": "Auto imported from components/Homepage/Homepage.vue"
+  },
+  "PagetwoFilters": {
+    "description": "Auto imported from components/Pagetwo/PagetwoFilters.vue"
+  },
+  "PagetwoPagination": {
+    "description": "Auto imported from components/Pagetwo/PagetwoPagination.vue"
+  }
+}

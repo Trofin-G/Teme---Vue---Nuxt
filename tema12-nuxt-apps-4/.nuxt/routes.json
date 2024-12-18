@@ -1,0 +1,14 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema12-nuxt-apps-4\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "details-details",
+    "path": "/details/:details?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema12-nuxt-apps-4\\\\pages\\\\details\\\\_details.vue",
+    "chunkName": "pages/details/_details"
+  }
+]

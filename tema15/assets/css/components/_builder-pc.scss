@@ -1,0 +1,163 @@
+.builder-pc {
+  background-color: $bg-2;
+  min-height: 100vh;
+
+  .inner {
+    .steps-container {
+      @import "end-page";
+      @import "start-page";
+
+      .steps-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        @media (min-width: 1200px) {
+          flex-direction: row;
+        }
+
+        .step {
+          width: 75%;
+          // border: 1px solid $text-1;
+          padding: 60px 0;
+
+          .inner {
+            .step-wrapper {
+              text-align: center;
+
+              h2 {
+                font-family: $onest;
+                color: $text-2;
+                font-size: 42px;
+                text-decoration: underline;
+              }
+
+              p {
+                font-family: $onest;
+                color: $text-2;
+                font-size: 26px;
+              }
+            }
+          }
+
+          .tools {
+            padding-top: 30px;
+
+            .group {
+              .input {
+                .input-label {
+                  font-size: 20px;
+                  font-family: $onest;
+                  color: $text-1;
+                  padding-right: 15px;
+                }
+
+                .input-select {
+                  color: $text-1;
+                  background-color: $text-2;
+                  outline: 0;
+                  border: 0;
+                  box-shadow: 0;
+                  border-radius: 4px;
+                  line-height: 34px;
+                  height: 34px;
+                  width: 100%;
+                  max-width: 150px;
+                  font-size: 18px;
+
+                  &:target,
+                  &:active,
+                  &.hover {
+                    outline: 0;
+                    border: 0;
+                    box-shadow: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .step-two,
+        .step-three,
+        .step-four,
+        .step-five,
+        .step-six {
+          .content {
+            form {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+              @media (min-width: $xl) {
+                flex-direction: row;
+                justify-content: start;
+                column-gap: 30px;
+                padding: 20px 30px 40px 30px;
+              }
+
+              > p {
+                width: 100%;
+              }
+
+              > div {
+                width: 40%;
+                @media (min-width: $xl) {
+                  width: calc(33.33% - 20px);
+                }
+
+                .group {
+                  background-color: $text-1;
+                  margin: 10px 0;
+                  border-radius: 8px;
+                  cursor: pointer;
+
+                  .label-radio {
+                    padding: 8px;
+                    width: 100%;
+
+                    p {
+                      font-size: 18px;
+                      font-weight: 500;
+                      width: 100%;
+                    }
+                  }
+
+                  &.active {
+                    box-shadow: 0px 0px 20px rgba(46, 229, 157, 1);
+                    outline: 2px solid rgba(46, 229, 157, 0.5);
+                  }
+
+                  .input-radio {
+                    visibility: none;
+                    display: none;
+                  }
+
+                  .label-radio {
+                    cursor: pointer;
+
+                    p {
+                      font-weight: 700;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .sidebar {
+          width: 25%;
+          // border: 1px solid $text-1;
+        }
+
+        @import "sidebar";
+        @import "step-one";
+        @import "step-two";
+        @import "step-three";
+        @import "step-four";
+        @import "step-five";
+        @import "step-six";
+      }
+    }
+  }
+}

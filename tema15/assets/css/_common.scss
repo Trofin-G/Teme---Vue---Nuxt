@@ -1,0 +1,62 @@
+// Inner container
+.inner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+  @media (min-width: $xl) {
+    max-width: 1140px;
+    padding: 0;
+  }
+  @media (min-width: $xxl) {
+    max-width: 1280px;
+  }
+  @media (min-width: $xxxl) {
+    max-width: 1440px;
+  }
+}
+
+// Prev-Next buttons
+.steps-btns {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+
+  .prevBtn,
+  .nextBtn {
+    display: block;
+    font-family: $onest;
+    font-size: 26px;
+    color: #2ac69b;
+    background-color: $text-1;
+    border-radius: 31px;
+    line-height: 50px;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 0 0 auto;
+
+    &:hover {
+      background-color: $text-2;
+      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+      color: $text-1;
+      transform: translateY(-4px);
+    }
+
+    &.nextBtn {
+      margin: 0 auto 0 0;
+    }
+  }
+}
+
+.error {
+  box-shadow: 0px 0px 20px rgba(244, 20, 4, 1);
+  outline: 2px solid rgba(244, 20, 4, 0.5);
+}

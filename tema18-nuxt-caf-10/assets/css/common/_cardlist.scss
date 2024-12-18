@@ -1,0 +1,42 @@
+.cardlist {
+  padding: 60px 0;
+
+  .cardlist-wrapper {
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+
+    figure {
+      width: calc(25% - 30px);
+      text-align: center;
+      border: 1px solid #28363D;
+      border-radius: 8px;
+      // padding: 15px;
+      
+      img{
+        display: block;
+        width: 343px;
+        height: 220px;
+        border-radius: 8px 8px 0 0;
+      }
+
+      figcaption{
+        height: auto;
+        position: relative;
+        padding: 20px 30px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h2{
+          font-size: 18px;
+          text-decoration: underline;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}

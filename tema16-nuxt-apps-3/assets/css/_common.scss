@@ -1,0 +1,135 @@
+.calculator-container {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/bg.png) no-repeat center/cover;
+  position: relative;
+
+  .calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 368px;
+    margin: 0 auto;
+
+    .display {
+      text-align: right;
+      background-color: $display;
+      border-radius: 6px 6px 0 0;
+      padding: 28px 26px 24px 24px;
+
+      .calculations {
+        color: $text-3;
+        background-color: $display;
+        font-family: $lato;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: right;
+        font-weight: 400;
+        outline: none;
+        border: none;
+        width: 100%;
+        box-shadow: none;
+        // max-width: 305px;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+        // white-space: nowrap;
+      }
+
+      .result {
+        color: $text-2;
+        font-family: $lato;
+        font-size: 50px;
+        text-align: right;
+        line-height: 60px;
+        font-weight: 300;
+        outline: none;
+        border: none;
+        background-color: $display;
+        box-shadow: none;
+        padding-top: 5px;
+        width: 100%;
+        max-width: 305px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .elements {
+      .row {
+        margin: 0 auto;
+
+        .operator,
+        .number,
+        .equal {
+          font-family: $lato;
+          font-size: 22px;
+          width: 92px;
+          height: 92px;
+          text-align: center;
+          font-weight: 300;
+          line-height: 28px; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border: 1px solid rgba(#d8d8d8, 0.4);
+
+          &:hover {
+            background-color: #e4e2e2;
+          }
+
+          &:focus{
+            outline: none;
+            border: none;
+          }
+        }
+
+        .operator {
+          color: $text-1;
+          background-color: $btn-3;
+        }
+
+        .number {
+          color: $text-1;
+          background-color: $btn-3;
+        }
+
+        button {
+          &:last-of-type {
+            color: $text-2;
+            background-color: $btn-1;
+
+            &:hover {
+              background-color: #8546dd;
+            }
+          }
+        }
+
+        .equal {
+          color: $text-2;
+          background-color: $btn-2;
+          width: 184px;
+          height: 92px;
+        }
+
+        &:last-of-type {
+          .number {
+            border-radius: 0 0 0 6px;
+          }
+
+          .equal {
+            border-radius: 0 0 6px 0;
+            background-color: $btn-2;
+
+            &:hover {
+              background-color: #c4176d;
+            }
+          }
+        }
+      }
+    }
+  }
+}

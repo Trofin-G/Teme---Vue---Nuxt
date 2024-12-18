@@ -1,0 +1,11 @@
+{
+  "MoviesListContent": {
+    "description": "Auto imported from components/MoviesList/MoviesListContent.vue"
+  },
+  "MoviesListToolsBar": {
+    "description": "Auto imported from components/MoviesList/MoviesListToolsBar.vue"
+  },
+  "SingleMovieContent": {
+    "description": "Auto imported from components/SingleMovie/SingleMovieContent.vue"
+  }
+}

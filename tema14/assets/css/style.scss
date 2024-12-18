@@ -1,0 +1,77 @@
+.main-page {
+  padding: 60px 0 60px 0;
+
+  .pagination {
+    padding-bottom: 25px;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      column-gap: 15px;
+      justify-content: center;
+      width: 100%;
+
+      li {
+        list-style: none;
+        background-color: lightblue;
+        border: 1px solid blue;
+        border-radius: 6px;
+        text-align: center;
+
+        &:hover,
+        &.active {
+          background-color: lightgreen;
+          border-color: green;
+        }
+
+        &.hidden,
+        &.hidden2 {
+          display: none;
+        }
+
+        a {
+          display: block;
+          color: black;
+          width: 30px;
+          padding: 3px 0;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+    width: 100%;
+
+    figure {
+      max-width: 80%;
+      text-align: center;
+      border-radius: 10px;
+      margin: 0 auto;
+      background-color: lightgreen;
+      padding: 20px 40px;
+
+      figcaption {
+        h4,
+        p {
+          color: black;
+          padding: 0;
+          margin: 0;
+        }
+
+        h4 {
+          padding-bottom: 5px;
+          text-decoration: underline;
+        }
+
+        p {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}

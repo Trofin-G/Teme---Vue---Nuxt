@@ -1,0 +1,44 @@
+[
+  {
+    "name": "contracts",
+    "path": "/contracts",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema10-nuxt-tpp7\\\\pages\\\\contracts\\\\index.vue",
+    "chunkName": "pages/contracts/index",
+    "_name": "_690199a8"
+  },
+  {
+    "name": "create-contract",
+    "path": "/create-contract",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema10-nuxt-tpp7\\\\pages\\\\create-contract\\\\index.vue",
+    "chunkName": "pages/create-contract/index",
+    "_name": "_7fd11e8a"
+  },
+  {
+    "name": "create-message",
+    "path": "/create-message",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema10-nuxt-tpp7\\\\pages\\\\create-message\\\\index.vue",
+    "chunkName": "pages/create-message/index",
+    "_name": "_0d099e51"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema10-nuxt-tpp7\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5483f9c7"
+  },
+  {
+    "name": "details-details",
+    "path": "/details/:details?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema10-nuxt-tpp7\\\\pages\\\\details\\\\_details.vue",
+    "chunkName": "pages/details/_details",
+    "_name": "_9fbf2f8c"
+  },
+  {
+    "name": "search-search",
+    "path": "/search/:search?",
+    "component": "D:\\\\Trofin - LoW\\\\00. LOW learning\\\\vue.js\\\\teme\\\\tema10-nuxt-tpp7\\\\pages\\\\search\\\\_search.vue",
+    "chunkName": "pages/search/_search",
+    "_name": "_6ba99e58"
+  }
+]

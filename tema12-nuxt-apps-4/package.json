@@ -1,0 +1,26 @@
+{
+  "name": "tema12-nuxt-apps-4",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "sass": "^1.32.8",
+    "vue-slick-carousel": "^1.0.6",
+    "vuejs-datepicker": "^1.6.2",
+    "vuejs-datetimepicker": "^1.1.13",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "sass-loader": "^10.1.1"
+  }
+}

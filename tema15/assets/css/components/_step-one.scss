@@ -1,0 +1,82 @@
+.step-one {
+  .content {
+    padding: 40px 0 60px 0;
+
+    form {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: center;
+      column-gap: 40px;
+
+      input,
+      label,
+      p,
+      h4 {
+        color: $text-2;
+        font-family: $onest;
+      }
+
+      .group {
+        &.active {
+          box-shadow: 0px 0px 20px rgba(46, 229, 157, 1);
+          outline: 2px solid rgba(46, 229, 157, 0.5);
+        }
+
+        .input-radio {
+          visibility: none;
+          display: none;
+        }
+
+        .label-radio {
+          cursor: pointer;
+          display: flex;
+          flex-direction: column;
+
+          p {
+            font-weight: 700;
+          }
+
+          img {
+            display: block;
+            width: 250px;
+            height: auto;
+            margin: 0 auto;
+          }
+        }
+
+        &.group-brand {
+          background-color: $text-1;
+          min-height: 210px;
+          border-radius: 10px;
+
+          .label-radio {
+            padding: 20px 25px 10px 25px;
+          }
+        }
+
+        &.group-model {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          background-color: $text-1;
+          margin: 10px 0;
+          border-radius: 8px;
+          cursor: pointer;
+
+          .label-radio {
+            padding: 8px 0;
+            width: 100%;
+
+            p {
+              font-size: 18px;
+              font-weight: 500;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

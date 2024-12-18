@@ -1,0 +1,149 @@
+.modal {
+  &.modalForm {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(black, 0.4);
+    text-align: center;
+
+    &.is-active {
+      display: block;
+    }
+
+    .modal-content {
+      text-align: start;
+      background-color: #c5be9d;
+      margin: 13% auto;
+      padding: 20px 12px 20px 12px;
+      border: 1px solid #888;
+      width: 90%;
+      border-radius: 10px;
+      @media (min-width: 576px) {
+        max-width: 528px;
+      }
+      @media (min-width: 1200px) {
+        // width: 31%;
+        max-width: 584px;
+        padding: 20px 28px 20px 28px;
+      }
+
+      .app-form {
+        .close {
+          color: #888888;
+          float: right;
+          font-size: 40px;
+          font-weight: 700;
+          position: relative;
+          top: -15px;
+          right: 20px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        h4 {
+          text-align: center;
+        }
+
+        .wrapper {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          @media (min-width: 576px) {
+            flex-direction: row;
+            justify-content: space-between;
+          }
+
+          .form-group {
+            &.group-half {
+              width: 100%;
+              @media (min-width: 576px) {
+                width: 50%;
+              }
+
+              &:first-of-type {
+                margin-right: 24px;
+              }
+            }
+          }
+        }
+        .form-group {
+          margin-bottom: 5px;
+
+          .form__label {
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 5px;
+          }
+
+          .form__input {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background-color: #888888;
+            @media (min-width: 576px) {
+              max-width: 250px;
+            }
+
+            &::placeholder{
+              color: black;
+            }
+          }
+        }
+
+        .form-description {
+          width: 100%;
+
+          textarea {
+            resize: vertical;
+            width: 100%;
+
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            outline: none;
+            height: 80px;
+            background-color: #888888;
+            @media (min-width: 1200px) {
+              max-width: 525px;
+            }
+          }
+        }
+
+        button {
+          padding: 0 25px;
+          color: white;
+          width: 121px;
+          height: 43px;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          background-color: #333333;
+        }
+
+        // .disabled {
+        //     cursor: not-allowed;
+        //     pointer-events: none;
+        //     opacity: 0.6;
+        // }
+
+        .error {
+          color: red;
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+}

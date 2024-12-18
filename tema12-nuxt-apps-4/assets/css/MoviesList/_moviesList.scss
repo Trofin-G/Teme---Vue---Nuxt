@@ -1,0 +1,11 @@
+.moviesList {
+  @import "../MoviesList/content";
+  @import "../MoviesList/pagination";
+  @import "../MoviesList/toolsBar";
+
+  margin: 0;
+  padding: 100px 0;
+  background: black;
+  min-height: 100vh;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+}

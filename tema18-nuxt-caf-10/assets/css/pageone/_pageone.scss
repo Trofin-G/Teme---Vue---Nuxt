@@ -1,0 +1,54 @@
+.pageone {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #dee1dd;
+  height: 100vh;
+
+  .inner {
+    max-width: 1500px;
+    margin: 0 auto;
+
+    .filters {
+      .group {
+        .input {
+          select {
+            background-color: #2f575d;
+            color: white;
+            font-size: 18px;
+            border: 1px solid #28363d;
+            padding: 10px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    .pagination {
+      ul {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: center;
+
+        li {
+          a {
+            display: block;
+            font-size: 17px;
+            background-color: #2f575d;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            min-width: 50px;
+            max-width: 50px;
+          }
+
+          &.active {
+            a {
+              background-color: #658b6f;
+            }
+          }
+        }
+      }
+    }
+  }
+}

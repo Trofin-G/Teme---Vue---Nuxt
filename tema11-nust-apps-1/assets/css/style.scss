@@ -1,0 +1,31 @@
+.app {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+  .app-wrapper {
+    @import "../css/components/clock";
+    @import "../css/components/activites";
+    @import "../css/components/modalForm";
+    @import "../css/components/activityModal";
+    @import "../css/components/reset";
+    @import "../css/components/variabiles";
+
+    background: url("../images/bg.png") no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
+
+    .add-button {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 10%;
+      color: white;
+      background-color: #333333;
+      font-size: 24px;
+      border-radius: 8px;
+      padding: 8px 45px;
+    }
+  }
+}
